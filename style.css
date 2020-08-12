@@ -1,0 +1,53 @@
+.post {
+  height: 150px;
+  width: 50px;
+  background-color: black;
+  margin: auto;
+}
+
+.light-box {
+  height: 600px;
+  width: 200px;
+  background-color: black;
+  margin: auto;
+  /* padding-top: 20px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.light {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(/grid.png);
+  /* margin: 0px auto 20px auto; */
+}
+
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  box-shadow: 0 0 40px lightcoral;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellow:hover {
+  box-shadow: 0 0 40px yellow;
+}
+
+.green {
+  background-color: forestgreen;
+}
+
+.green:hover {
+  box-shadow: 0 0 40px lime;
+}
+
